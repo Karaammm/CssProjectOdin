@@ -197,3 +197,6 @@ a {
 .container4 ul li:hover{
     color: #7d7d7d;
 }
+.copyright{
+    text-align: center;
+}
