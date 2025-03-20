@@ -1,0 +1,199 @@
+
+body{
+    margin: 0px;
+}
+.container1 {
+    background-color: #1F2937;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+.navBarText{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    font-size: 30px;
+    color: #9ebdf9;
+    margin: 0px;
+    padding-left: 20px;
+}
+.navBarList{
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+    padding: 0px 20px 0px 20px;
+    margin: 0px;
+}
+
+.getStartedButton{
+    justify-self: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.getStartedButton:hover{
+    background-color: #45a049;
+}
+
+.item1{
+    font-size: 18px;
+    color: #9ebdf9;
+    padding-right: 20px;
+}
+
+.item1 a:hover {
+    color: #5388f0;
+}
+
+.container2{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header2{
+    display: block;
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 26px;
+    font-weight: 900;
+    background-color: #e9edfc;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: lightblue;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 10px);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    background-color:#eeeef0;
+    padding: 30px;
+}
+.header3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.subtext3 {
+    color: #414141;
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.container3 button{
+    margin: 10px;
+    justify-self: center;
+    background-color: #777777;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.container3 button:hover{
+    background-color: #4b4b4b;
+}
+
+.container3 button.donateButton {
+    background-color: #4CAF50;
+}
+
+.container3 button.donateButton:hover{
+    background-color: #45a049;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.container4 div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.container4 ul {
+    list-style: none;
+    gap: 20px;
+    padding: 0px 20px 0px 20px;
+    margin: 0px;
+}
+
+.container4 ul li {
+    color: #414141;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container4 ul li:hover{
+    color: #7d7d7d;
+}
